@@ -14,10 +14,12 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ6XWC044E"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-VZ6XWC044E');
+      gtag("config", "G-VZ6XWC044E");
     </script>
   </head>
   <body
@@ -30,26 +32,25 @@
       );
     ">
     <header class="p-4">
-      <h1 class="font-rubik text-2xl font-bold uppercase tracking-wide">Ashley Hebler</h1>
+      <h1 class="font-rubik text-3xl font-bold uppercase tracking-wide">Ashley Hebler</h1>
     </header>
     <main class="p-10 md:p-24">
-      <section class="mb-20 grid gap-10 sm:grid-cols-12 sm:gap-2 lg:gap-16">
+      <section class="mb-20 grid gap-10 grid-cols-1 sm:grid-cols-12 sm:gap-2 lg:gap-16">
         <div class="hero__text sm:col-span-8">
-          <h2 class="text-4xl font-bold">Full-stack web developer and product engineer</h2>
+          <h2 class="text-2xl font-black">
+            About me
+          </h2>
           <p class="mt-5 text-lg">
-            Howdy, I'm Ashley Hebler and I've been building web applications for over 10 years. I
-            specialize in building full-stack applications with a focus on the user experience. I'm
-            passionate about building accessible products that are easy to use and solve real-world
-            problems.
+            Howdy, I'm Ashley Hebler and I've been crafting code and working on web teams for over
+            10 years. I specialize in building full-stack applications with a focus on user
+            experience. I'm passionate about creating accessible products that are easy to use and
+            solve real-world problems.
           </p>
           <p class="mt-5 text-lg">
-            I enjoy working with design systems to create scalable and maintainable front-end code
-            using any codebase you put in front of me. I'm also experienced with Python and Django
-            and have a background in PHP and WordPress. I'm currently working as an engineering
-            manager at The Texas Tribune where I lead a team of engineers building digital news
-            products.
+            I'm currently working as an engineering manager at The Texas Tribune where I lead a team
+            of engineers building digital news products.
           </p>
-          <div class="mt-5 flex gap-10 fill-blue-900 stroke-blue-900 text-lg">
+          <div class="mt-5 flex gap-10 fill-blue-500 stroke-blue-500 text-lg">
             <a href="https://github.com/ashley-hebler">
               <span class="sr-only">Github</span>
               <svg
@@ -99,214 +100,250 @@
             </a>
           </div>
         </div>
-        <div class="hero__image sm:col-span-4">
+        <div class="hero__image text-center sm:text-left sm:col-span-4">
           <img
             src="me.jpg"
-            alt="Woman with hat at table"
-            class="rotate-6 rounded-lg shadow-lg backdrop-blur-sm" />
+            alt="Woman standing in front of white background"
+            class="m-auto sm:m-0 sm:rotate-6 rounded-lg shadow-lg grayscale backdrop-blur-sm  max-w-[200px]" />
         </div>
       </section>
-      <section class="grid-cols-12 gap-16 md:grid">
+      <section class="grid grid-cols-1 md:grid-cols-12 gap-16">
         <div class="md:col-span-7">
           <h2 class="text-2xl font-black">Recent work</h2>
-          <p>
-            <em>Last updated 2024</em>
-            - Here's some open source work I can share.
-          </p>
+          <p class="mb-4">Here's some open source work I can share.</p>
           <div class="grid gap-3 md:grid-cols-2">
-            <div class="">
-              <div
-                class="mb-2 block rounded-md border-2 border-gray-50 bg-white/20 p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
-                <div class="mb-3 flex justify-between align-middle">
-                  <h3 class="text-l font-semibold">sheplays.net</h3>
-                  <img
-                    width="25px"
-                    src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg"
-                    alt="" />
-                </div>
+            <div
+              class="mb-2 block rounded-md border-2 border-gray-50 bg-white p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
+              <div class="mb-3 flex justify-between align-middle">
+                <h3 class="text-l font-semibold">sheplays.net</h3>
+                <img
+                  width="25px"
+                  src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg"
+                  alt="" />
+              </div>
 
-                <p>
-                  This is a fun side project I built with
-                  <a
-                    class="font-medium text-blue-600 underline hover:no-underline"
-                    href="https://astro.build/">
-                    Astro.js
-                  </a>
-                  . I wanted a one stop shop for watching women's sports on TV.
-                </p>
-                <div class="mt-4 flex items-center justify-end gap-1 text-right">
-                  <a
-                    href="https://github.com/ashley-hebler/sheplays"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      class="inline-block fill-blue-300"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
-                    </svg>
-                    code
-                  </a>
-                  <a
-                    href="https://www.sheplays.net/"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="inline-block fill-blue-300"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-                    </svg>
-                    site
-                  </a>
-                </div>
+              <p>
+                This is a fun side project I built with
+                <a
+                  class="font-medium text-blue-600 underline hover:no-underline"
+                  href="https://astro.build/">
+                  Astro.js
+                </a>
+                . I wanted a one stop shop for watching women's sports on TV.
+              </p>
+              <div class="mt-4 flex items-center justify-end gap-1 text-right">
+                <a
+                  href="https://github.com/ashley-hebler/sheplays"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    class="inline-block fill-blue-300"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
+                  </svg>
+                  code
+                </a>
+                <a
+                  href="https://www.sheplays.net/"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="inline-block fill-blue-300"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                  </svg>
+                  site
+                </a>
               </div>
             </div>
-            <div class="">
-              <div
-                class="mb-2 block rounded-md border-2 border-gray-50 bg-white/20 p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
-                <div class="mb-3 flex justify-between align-middle">
-                  <h3 class="text-l font-semibold">Sports Listings API</h3>
-                  <img
-                    width="25px"
-                    src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.svg"
-                    alt="Python logo" />
-                </div>
+            <div
+              class="mb-2 block rounded-md border-2 border-gray-50 bg-white p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
+              <div class="mb-3 flex justify-between align-middle">
+                <h3 class="text-l font-semibold">taxonomy explorer</h3>
+                <img
+                  width="25px"
+                  src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg"
+                  alt="" />
+              </div>
 
-                <p>
-                  This is an API I built to scrape sports listings from various sources. The
-                  database is Postgres.
-                </p>
-                <div class="mt-4 flex items-center justify-end gap-1 text-right">
-                  <a
-                    href="https://github.com/ashley-hebler/sports_guide"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      class="inline-block fill-blue-300"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
-                    </svg>
-                    code
-                  </a>
-                  <a
-                    href="https://api.sheplays.net/docs"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="inline-block fill-blue-300"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-                    </svg>
-                    site
-                  </a>
-                </div>
+              <p>
+                This is simple app I built to explore the WordPress taxonomy API using <a class="font-medium text-blue-600 underline hover:no-underline" href="https://nextjs.org/">Next.js</a>.
+              </p>
+              <div class="mt-4 flex items-center justify-end gap-1 text-right">
+                <a
+                  href="https://github.com/ashley-hebler/taxonomy-explorer"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    class="inline-block fill-blue-300"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
+                  </svg>
+                  code
+                </a>
+                <a
+                  href="https://taxonomy-explorer.vercel.app/"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="inline-block fill-blue-300"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                  </svg>
+                  site
+                </a>
               </div>
             </div>
-            <div>
-              <div
-                class="mb-2 block rounded-md border-2 border-gray-50 bg-white/20 p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
-                <div class="mb-3 flex justify-between align-middle">
-                  <h3 class="text-l font-semibold">Queso UI</h3>
-                  <img
-                    width="25px"
-                    src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg"
-                    alt="" />
-                </div>
+            <div
+              class="mb-2 block rounded-md border-2 border-gray-50 bg-white p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
+              <div class="mb-3 flex justify-between align-middle">
+                <h3 class="text-l font-semibold">Sports Listings API</h3>
+                <img
+                  width="25px"
+                  src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.svg"
+                  alt="Python logo" />
+              </div>
 
-                <p>
-                  This is a self documenting UI library I built with Node task runners. It's
-                  platform agnostic and can be used with any framework.
-                </p>
-                <div class="mt-4 flex items-center justify-end gap-1 text-right">
-                  <a
-                    href="https://github.com/texastribune/queso-ui"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      class="inline-block fill-blue-300"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
-                    </svg>
-                    code
-                  </a>
-                  <a
-                    href="https://texastribune.github.io/queso-ui/"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="inline-block fill-blue-300"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-                    </svg>
-                    site
-                  </a>
-                </div>
+              <p>
+                This is an API I built to scrape sports listings from various sources. The database
+                is Postgres.
+              </p>
+              <div class="mt-4 flex items-center justify-end gap-1 text-right">
+                <a
+                  href="https://github.com/ashley-hebler/sports_guide"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    class="inline-block fill-blue-300"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
+                  </svg>
+                  code
+                </a>
+                <a
+                  href="https://api.sheplays.net/docs"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="inline-block fill-blue-300"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                  </svg>
+                  site
+                </a>
               </div>
             </div>
-            <div>
-              <div
-                class="mb-2 block rounded-md border-2 border-gray-50 bg-white/20 p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
-                <div class="mb-3 flex justify-between align-middle">
-                  <h3 class="text-l font-semibold">MedicareMall.com (redesign)</h3>
-                  <img
-                    width="25px"
-                    src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/php/php.svg"
-                    alt="" />
-                </div>
 
-                <p>
-                  I designed the original site and was brought back to redesign it. I used tailwind
-                  for the first time and it was a great experience.
-                </p>
-                <div class="mt-4 flex items-center justify-end gap-1 text-right">
-                  <a
-                    href="https://www.medicaremall.com/"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="inline-block fill-blue-300"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-                    </svg>
-                    old
-                  </a>
-                  <a
-                    href="https://superb-eclair-982d5f.netlify.app/"
-                    class="rounded-full bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-700">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="inline-block fill-blue-300"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24">
-                      <path
-                        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-                    </svg>
-                    new
-                  </a>
-                </div>
+            <div
+              class="mb-2 block rounded-md border-2 border-gray-50 bg-white p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
+              <div class="mb-3 flex justify-between align-middle">
+                <h3 class="text-l font-semibold">Queso UI</h3>
+                <img
+                  width="25px"
+                  src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg"
+                  alt="" />
+              </div>
+
+              <p>
+                This is a self documenting UI library I built with Node.js task runners. It's platform
+                agnostic and can be used with any framework.
+              </p>
+              <div class="mt-4 flex items-center justify-end gap-1 text-right">
+                <a
+                  href="https://github.com/texastribune/queso-ui"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    class="inline-block fill-blue-300"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
+                  </svg>
+                  code
+                </a>
+                <a
+                  href="https://texastribune.github.io/queso-ui/"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="inline-block fill-blue-300"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                  </svg>
+                  site
+                </a>
               </div>
             </div>
+
+            <div
+              class="mb-2 block rounded-md border-2 border-gray-50 bg-white p-6 shadow-sm backdrop-blur-sm transition-colors duration-300 hover:border-2 hover:border-violet-200">
+              <div class="mb-3 flex justify-between align-middle">
+                <h3 class="text-l font-semibold">MedicareMall.com (redesign)</h3>
+                <img
+                  width="25px"
+                  src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/php/php.svg"
+                  alt="" />
+              </div>
+
+              <p>
+                I designed the original site and was brought back to redesign it. I used tailwind
+                for the first time and it was a great experience.
+              </p>
+              <div class="mt-4 flex items-center justify-end gap-1 text-right">
+                <a
+                  href="https://www.medicaremall.com/"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="inline-block fill-blue-300"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                  </svg>
+                  old
+                </a>
+                <a
+                  href="https://superb-eclair-982d5f.netlify.app/"
+                  class="rounded-full bg-blue-500 px-2 py-1 text-sm font-bold text-white hover:bg-blue-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="inline-block fill-blue-300"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                  </svg>
+                  new
+                </a>
+              </div>
+            </div>
+            
           </div>
         </div>
         <div class="md:col-span-5">
@@ -333,27 +370,35 @@
                   Current
                 </span>
               </h3>
-              <time class="mb-2 block text-sm font-normal text-gray-700">Engineering manager</time>
+              <time class="mb-2 block text-sm font-normal text-gray-700">Front-end engineer &#8594; Engineering manager</time>
               <div class="mb-2 flex flex-wrap gap-1">
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   Python
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   Django
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   React
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   Vue
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   Postgres
+                </span>
+                <span
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
+                  AWS
+                </span>
+                <span
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
+                  GCP
                 </span>
               </div>
 
@@ -370,8 +415,7 @@
                   href="https://github.com/texastribune/donations">
                   donations
                 </a>
-                pipeline. We've also begun to experiment and AI and Machine Learning. Before
-                becoming a manager, I was a front-end engineer.
+                pipeline. We've also begun to experiment and AI and Machine Learning.
               </p>
               <p class="mb-4 text-sm text-gray-700">
                 <span class="font-bold uppercase">Growth:</span>
@@ -395,22 +439,21 @@
                 Cox Media Group
               </h3>
               <time class="mb-2 block text-sm font-normal text-gray-700">
-                Software engineering manager
+                Software engineer &#8594; Software engineering manager
               </time>
               <div class="mb-2 flex flex-wrap gap-1">
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   PHP
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   JavaScript
                 </span>
               </div>
               <p class="mb-2 text-base font-normal text-gray-500">
                 I worked on an innovation team to build digital-first content plaforms. We primarily
-                managed a suite of WordPress sites hosted in WordPress VIP. Similar to my current
-                role, I was a front-end engineer before becoming a manager.
+                managed a suite of WordPress sites hosted in WordPress VIP.
               </p>
               <p class="mb-4 text-sm text-gray-700">
                 <span class="font-bold uppercase">Growth:</span>
@@ -436,19 +479,19 @@
               </time>
               <div class="mb-2 flex flex-wrap gap-1">
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   HTML
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   CSS
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   JavaScript
                 </span>
                 <span
-                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white hover:bg-blue-700">
+                  class="rounded-full bg-blue-500 px-2 py-0.5 text-xs font-bold text-white">
                   Node.js
                 </span>
               </div>
